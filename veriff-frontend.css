@@ -1,0 +1,41 @@
+.civiveriff-box {
+	margin: 1.5em 0;
+	padding: 1em;
+	border: 1px solid #d0d5dd;
+	border-radius: 6px;
+	background: #f9fafb;
+}
+
+.civiveriff-btn {
+	cursor: pointer;
+	padding: 0.6em 1.2em;
+	border: 0;
+	border-radius: 4px;
+	background: #155eef;
+	color: #fff;
+	font-weight: 600;
+}
+
+.civiveriff-btn:disabled {
+	opacity: 0.6;
+	cursor: default;
+}
+
+.civiveriff-status {
+	margin-top: 0.6em;
+	font-size: 0.9em;
+}
+
+.civiveriff-status.is-pending {
+	color: #b54708;
+}
+
+.civiveriff-status.is-ok {
+	color: #067647;
+	font-weight: 600;
+}
+
+.civiveriff-status.is-error {
+	color: #b42318 !important;
+	font-weight: 600;
+}
